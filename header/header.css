@@ -1,0 +1,101 @@
+/* p {
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    justify-content: space-between;
+
+} */
+
+.l {
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: center;
+}
+
+.star {
+    color: rgb(239, 255, 62);
+}
+
+img {
+    background-color: orange;
+}
+
+body {
+    /* background-color: pink; */
+    justify-content: space-between;
+}
+.main-container {
+  
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   text-align: center;
+   margin-left: center;
+   justify-content: center;
+}
+botton {
+    background-color: orange;
+}
+.sign {
+    text-decoration: none;
+    box-shadow: none;
+}
+.login {
+    text-decoration: none;
+    background-color: orange;
+    padding: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: none;
+
+}
+text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #e63e44;
+        /* Red */
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+        width: 50%;
+    }
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+        width: 33.3%;
+    }
+
+    .header {
+        height: 400px;
+    }
+}
