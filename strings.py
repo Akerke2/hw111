@@ -176,8 +176,8 @@
 # print(dezz)  #index index қайтарады find- индекс қайтарады
 
 # 25
-g = "mfvmvkvmkmvvmfkf;fpfkn rifrofn fi4fnofn nfo4ifni4 fioj4fi4fo mv"
-print(g[31:54]) # стрингтың кесіп алады 31 басталған элемент сосын 54 ке дейін қиады
+# g = "mfvmvkvmkmvvmfkf;fpfkn rifrofn fi4fnofn nfo4ifni4 fioj4fi4fo mv"
+# print(g[31:54]) # стрингтың кесіп алады 31 басталған элемент сосын 54 ке дейін қиады
 
 
 

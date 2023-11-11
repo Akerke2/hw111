@@ -60,12 +60,12 @@
 # print(meat)
 # food_stuff_tp = meat + vegetables + fruit
 # print(food_stuff_tp)
-# # 3
+# # # 3
 # food_stuff_lt = list(food_stuff_tp)
 # print(food_stuff_lt)
-# print(tuple(food_stuff_lt))
 # # 4
-# print(food_stuff_lt[5:8])
+# food_stuff_lt.pop(len(food_stuff_lt)//2)
+# print(food_stuff_lt)
 # # 5
 # print(food_stuff_lt[0:3])
 # print(food_stuff_lt[-3:])
@@ -73,8 +73,5 @@
 # del food_stuff_lt
 # 7
 # nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
-# if "Estonia" in nordic_countries:
-#     print("'Estonia' in nordic_countries")
-# else: print("Estonia not in nordic")
-# if "Iceland" in nordic_countries:
-#     print("Iceland in nordic_countries")
+# print('Estonia' in nordic_countries) 
+# print("Iceland" in nordic_countries)
